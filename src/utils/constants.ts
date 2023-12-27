@@ -131,6 +131,14 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     wsteth: NOT_SUPPORTED_ON_CHAIN,
     creationBlock: 3229053,
   },
+  // zkatana
+  [1261120]: {
+    router: '0x1a3165C512D06b015afB6bD760Cf22c056bE8CF7',
+    weth: '0xEbB3F7644F5D523B4cA7F5d1C94ea023f1D9b066',
+    steth: NOT_SUPPORTED_ON_CHAIN,
+    wsteth: NOT_SUPPORTED_ON_CHAIN,
+    creationBlock: 264552,
+  },
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
