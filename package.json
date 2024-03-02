@@ -51,8 +51,8 @@
   "dependencies": {
     "@uniswap/permit2-sdk": "^1.2.0",
     "@uniswap/router-sdk": "^1.6.0",
-    "@uniswap/sdk-core": "^4.0.0",
-    "@uniswap/universal-router": "1.5.1",
+    "@uniswap/sdk-core": "git+https://github.com/encrypt-X/sdk-core.git",
+    "@uniswap/universal-router": "git+https://github.com/encrypt-X/universal-router.git",
     "@uniswap/v2-sdk": "^3.2.0",
     "@uniswap/v3-sdk": "^3.10.0",
     "bignumber.js": "^9.0.2",
