@@ -1,6 +1,6 @@
 {
   "name": "@uniswap/universal-router-sdk",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -51,7 +51,7 @@
   "dependencies": {
     "@uniswap/permit2-sdk": "^1.2.0",
     "@uniswap/router-sdk": "^1.6.0",
-    "@uniswap/sdk-core": "git+https://github.com/encrypt-X/sdk-core.git",
+    "@uniswap/sdk-core": "git+https://github.com/encrypt-X/sdk-core.git#4.0.11",
     "@uniswap/universal-router": "1.5.1",
 	"@uniswap/v2-sdk": "^4.1.0",
     "@uniswap/v3-sdk": "^3.10.1",
