@@ -139,6 +139,14 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     wsteth: NOT_SUPPORTED_ON_CHAIN,
     creationBlock: 264552,
   },
+  //SeiDev
+  [713715]: {
+    router: '0x0EB684486027f2F5cFb4C8a18897381706AeD534',
+    weth: '0x657389E6c95308BD24a9aCB40FDe474d4D580d63',
+    steth: NOT_SUPPORTED_ON_CHAIN,
+    wsteth: NOT_SUPPORTED_ON_CHAIN,
+    creationBlock: 264552,
+  },
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {

@@ -2268,9 +2268,9 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/sdk-core@git+https://github.com/encrypt-X/sdk-core.git":
-  version "4.0.10"
-  resolved "git+https://github.com/encrypt-X/sdk-core.git#0d83f0cb89f6df8b77da295e067ee0847273c020"
+"@uniswap/sdk-core@git+https://github.com/encrypt-X/sdk-core.git#4.0.11":
+  version "4.0.11"
+  resolved "git+https://github.com/encrypt-X/sdk-core.git#cbd7757f9c38f721e2d537f08d24b0c6697fb55f"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
